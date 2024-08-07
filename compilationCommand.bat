@@ -1,0 +1,1 @@
+gcc main.cpp glad.c -o main.exe -I ./Libraries/include/ -L ./Libraries/lib/ -lglfw
