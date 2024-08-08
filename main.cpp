@@ -125,6 +125,7 @@ int main() {
     // Set the main loop
     emscripten_set_main_loop(render, 0, true);
 
+    // Clean up
     glDeleteVertexArrays(1, &VAO);
     glDeleteBuffers(1, &VBO);
     glDeleteProgram(shaderProgram);
