@@ -3,6 +3,7 @@
 #include <GLFW/glfw3.h>
 #include <emscripten.h>
 #include <cmath>
+
 #include "EBO.h"
 #include "VAO.h"
 #include "VBO.h"
