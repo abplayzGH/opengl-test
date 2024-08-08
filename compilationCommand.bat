@@ -1,1 +1,0 @@
-gcc main.cpp glad.c -o main.exe -I C:\Users\abpla\emsdk\upstream\emscripten\cache\sysroot\include\

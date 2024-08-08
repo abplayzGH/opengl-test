@@ -5,24 +5,6 @@
 #include <cmath>
 
 
-// Vertex Shader source code
-const char* vertexShaderSource = R"(
-attribute vec3 aPos;
-void main()
-{
-    gl_Position = vec4(aPos, 1.0);
-}
-)";
-
-// Fragment Shader source code
-const char* fragmentShaderSource = R"(
-precision mediump float;
-void main()
-{
-    gl_FragColor = vec4(0.8, 0.3, 0.02, 1.0);
-}
-)";
-
 // Global variables for shader program and VAO
 GLuint shaderProgram;
 GLuint VAO;
